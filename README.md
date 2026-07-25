@@ -1,6 +1,6 @@
 # APEX VAULT
 
-<img width="1200" height="320" alt="image" src="https://github.com/user-attachments/assets/3923d141-7016-47cb-96f3-1c11cbfc8f00" />
+
 
 
 Private working repository for the technical side of my life.
