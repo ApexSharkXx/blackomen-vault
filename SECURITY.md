@@ -1,16 +1,14 @@
-# Security and Secret Handling
+# Security and Data Handling
 
-This repository is private, but private does not mean safe for secrets.
+This repository is public. Treat every commit, branch, pull request, issue, and artifact as publicly accessible.
 
 Never commit:
-- passwords or recovery codes;
-- API keys or access tokens;
-- SSH/private keys;
-- session cookies;
-- `.env` files containing credentials;
-- broker credentials;
-- cryptocurrency seed phrases;
-- unredacted customer or target data;
-- confidential bug bounty program material that should not be retained here.
 
-Use environment variables or an appropriate secret manager.
+- passwords, recovery codes, API keys, or access tokens;
+- SSH keys, private keys, certificates, or credential-bearing `.env` files;
+- session cookies, authenticated captures, or unredacted request data;
+- customer data, target data, or personally identifiable information;
+- private bug bounty scope or confidential program material;
+- unreleased vulnerability details or evidence that could expose a target.
+
+Use environment variables or an appropriate secret manager. Sanitize examples, captures, notes, and reports before publishing them.
